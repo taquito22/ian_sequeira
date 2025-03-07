@@ -753,3 +753,61 @@
         font-size: 1.2rem;
     }
 }
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: all 0.5s ease;
+    border-radius: 10px 10px 0 0;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.03);
+}
+
+.photo-caption {
+    padding: 15px;
+    background: white;
+    border-radius: 0 0 10px 10px;
+    border-top: 3px solid #4CAF50;
+}
+
+.photo-caption h5 {
+    margin: 0 0 8px 0;
+    font-weight: 600;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.photo-caption p {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+/* Fourth about me image centered */
+.justify-content-center .gallery-item {
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .gallery-item img {
+        height: 200px;
+    }
+}
