@@ -20,7 +20,6 @@ My personal portfolio website showcasing my expertise in economics, data science
 * Functional contact form with AJAX submission
 * Social media integration
 * Image gallery with captions
-* Custom styling for visual appeal
 * Smooth scrolling navigation
 * Animated UI elements for enhanced user experience
 
@@ -43,7 +42,3 @@ My personal portfolio website showcasing my expertise in economics, data science
 ## Contact
 
 Feel free to reach out to me through the contact form on the website or via my social media profiles linked in the footer.
-
-## Deployment
-
-This website is hosted on GitHub Pages and can be accessed at [https://taquito22.github.io/ian_sequeira/](https://taquito22.github.io/ian_sequeira/)
