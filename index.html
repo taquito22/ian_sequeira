@@ -573,41 +573,6 @@
         </div>
     </footer>
 
-    <!-- load javascript after loading all html content -->
-    <script src="script.js"></script>
-    
-    <!-- Portfolio filtering script -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const filterBtns = document.querySelectorAll('.filter-btn');
-            const portfolioItems = document.querySelectorAll('.portfolio-item');
-            
-            filterBtns.forEach(btn => {
-                btn.addEventListener('click', function() {
-                    // Remove active class from all buttons
-                    filterBtns.forEach(filterBtn => {
-                        filterBtn.classList.remove('active');
-                    });
-                    
-                    // Add active class to clicked button
-                    this.classList.add('active');
-                    
-                    const filterValue = this.getAttribute('data-filter');
-                    
-                    portfolioItems.forEach(item => {
-                        const categories = item.getAttribute('data-category').split(' ');
-                        
-                        if (filterValue === 'all' || categories.includes(filterValue)) {
-                            item.style.display = 'block';
-                        } else {
-                            item.style.display = 'none';
-                        }
-                    });
-                });
-            });
-        });
-    </script>
-
 </body>
 
 </html>
