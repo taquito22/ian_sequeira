@@ -25,7 +25,7 @@ My personal portfolio website showcasing my expertise in economics, data science
 
 ## Design Elements
 
-* Custom color scheme with green accents
+* Custom color scheme with blue accents
 * Hover effects on cards and buttons
 * Animated content appearance
 * Typography optimized for readability
@@ -33,12 +33,7 @@ My personal portfolio website showcasing my expertise in economics, data science
 
 ## Project Structure
 
-* Landing page with animated introduction
+* Landing page with animated introduction using .js
 * About Me section with personal information and interests
-* Services section highlighting key skills and offerings
 * Portfolio section with filterable project categories
 * Contact section with functional form and location map
-
-## Contact
-
-Feel free to reach out to me through the contact form on the website or via my social media profiles linked in the footer.
